@@ -1,4 +1,4 @@
-import { Hall } from "./hall";
+import { Hall } from "../hall/hall";
 
 export class Person {
     name: string;

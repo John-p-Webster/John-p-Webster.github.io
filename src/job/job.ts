@@ -1,5 +1,5 @@
-import { Hall } from "./hall";
-import { Person } from "./person";
+import { Hall } from "../hall/hall";
+import { Person } from "../person/person";
 
 export class Job {
     name: string;

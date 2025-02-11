@@ -1,5 +1,5 @@
-import { Scheduler } from "./scheduler";
-import { Person } from "./person";
+import { Scheduler } from "../src/scheduler/scheduler";
+import { Person } from "../src/person/person";
 import { expect } from '@jest/globals';
 import { describe, test, beforeEach } from '@jest/globals';
 

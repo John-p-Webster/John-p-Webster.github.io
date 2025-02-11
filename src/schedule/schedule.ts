@@ -1,5 +1,5 @@
-import { Job } from "./job";
-import { Week } from "./week";
+import { Job } from "../job/job";
+import { Week } from "../week/week";
 
 export class Schedule {
     weeks: Week[];

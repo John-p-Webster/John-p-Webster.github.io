@@ -1,4 +1,4 @@
-import { Scheduler } from "./scheduler";
+import { Scheduler } from "./scheduler/scheduler";
 
 function main() {
     // Create a new scheduler instance
@@ -34,7 +34,8 @@ function main() {
     Object.entries(assignmentCountByName).forEach(([name, count]) => {
         console.log(`${name}: ${count/scheduler.schedule.getWeeks().length}`);
     });
-    console.log(`Max times one person is doing kitchen: ${scheduler.maxTimesOnePersonIsDoingKitchen()}`);
+    const kitchenDutyResult = scheduler.maxTimesOnePersonIsDoingKitchen();
+    console.log(`Most times one person is doing kitchen is ${kitchenDutyResult.person?.name}: ${kitchenDutyResult.max}`);
 
     scheduler.toJson();
 }

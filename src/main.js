@@ -1,7 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var scheduler_1 = require("./scheduler");
+var scheduler_1 = require("./scheduler/scheduler");
 function main() {
+    var _a;
     // Create a new scheduler instance
     var scheduler = new scheduler_1.Scheduler();
     // Assign people to jobs
@@ -30,7 +31,8 @@ function main() {
         var name = _a[0], count = _a[1];
         console.log("".concat(name, ": ").concat(count / scheduler.schedule.getWeeks().length));
     });
-    console.log("Max times one person is doing kitchen: ".concat(scheduler.maxTimesOnePersonIsDoingKitchen()));
+    var kitchenDutyResult = scheduler.maxTimesOnePersonIsDoingKitchen();
+    console.log("Most times one person is doing kitchen is ".concat((_a = kitchenDutyResult.person) === null || _a === void 0 ? void 0 : _a.name, ": ").concat(kitchenDutyResult.max));
     scheduler.toJson();
 }
 // Run the main function

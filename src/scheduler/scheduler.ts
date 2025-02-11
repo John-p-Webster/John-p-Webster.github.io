@@ -1,8 +1,9 @@
-import { Hall } from "./hall";
-import { Job } from "./job";
-import { Person } from "./person";
-import { Schedule } from "./schedule";
-import { Week } from "./week";
+import { config } from "../config";
+import { Hall } from "../hall/hall";
+import { Job } from "../job/job";
+import { Person } from "../person/person";
+import { Schedule } from "../schedule/schedule";
+import { Week } from "../week/week";
 
 export class Scheduler {
     schedule: Schedule;
@@ -12,6 +13,9 @@ export class Scheduler {
     jobConfigs;
     hallConfigs
     maxAssignments: number;
+    MAX_RANDOMIZE_COUNT: number = 2000000;
+    KITCHEN_DUTY_TARGET: number = 1;
+    KITCHEN_DUTY_GIVE_UP: number = 4;
 
     constructor() {
         this.schedule = new Schedule(11);
@@ -27,8 +31,8 @@ export class Scheduler {
         this.hallConfigs = [
             { name: 'Upper North', people: ['Zebert', 'JT', 'Conner', 'Jonny', 'Josh MC', 'Grayson', 'Strait', 'Logan P.', 'Kj', 'Hrimann'] },
             { name: 'Upper South', people: ['Austin', 'Wyatt', 'Brandon', 'Webster', 'Cutler', 'Robbie', 'Tristan', 'Antonio', 'Joel', 'Nate', 'Matteo B', 'Nathan'] },
-            { name: 'Lower North', people: ['Tim', 'Baba', 'Josh Pearson'] },
-            { name: 'Lower South', people: ['Gary Groudsky', 'Dom Spiotta'] }
+            { name: 'Lower North', people: ['Tim ', 'Baba', 'Josh Pearson'] },
+            { name: 'Lower South', people: ['Gary Groudsky', 'Dom Spiotta', 'Tomaso Calviello', 'Matteo Calviello'] }
         ];
 
         for (const config of this.hallConfigs) {
@@ -100,7 +104,7 @@ export class Scheduler {
         this.assignHallJobs();
         this.assignOtherJobs();
         this.rebalanceAssignments();
-        this.randomizeAssignments(0);
+        this.schedule = this.randomizeAssignments(0);
     }
 
     assignHallJobs() {
@@ -281,56 +285,71 @@ export class Scheduler {
         return false;
     }
 
+    /**
+     * Randomize assignments
+     * @param count - number of times randomized
+     * @param maxCount - max number of times to randomize
+     * @param target - max number of times one person is doing kitchen
+     * @param giveUp - will try to randomize again until this number is reached
+     * @returns true if successful, false if giving up
+     */
     randomizeAssignments(count: number) {
-        if (count > 2000) {
-            console.warn(`Randomized ${count} times, giving up`);
-            return false;
-        }
-
-        // Save current state in case we need to revert
-        const originalState = this.schedule.getWeeks().map(week => 
-            week.jobs.map(job => [...job.people])
-        );
-
-        // Randomize all weeks
-        for (const week of this.schedule.getWeeks()) {
-            let people: Person[] = [];
-            for (const job of week.jobs) {
-                people.push(...job.people);
-                job.people = [];
+        let lowestKitchenCount = this.maxAssignments;
+        let bestConfig = this.deepCopySchedule(this.schedule); // Create initial deep copy
+        let message = `Randomizing assignments...`;
+        while (count < this.MAX_RANDOMIZE_COUNT) {
+            if (count % 100000 === 0) {
+                this.updateProgress(count, this.MAX_RANDOMIZE_COUNT, message);
             }
             
-            people.sort(() => Math.random() - 0.5);
-            let personIndex = 0;
-            
-            // Assign people to jobs respecting numOfPeople
-            for (const job of week.jobs) {
-                for (let i = 0; i < job.numOfPeople; i++) {
-                    if (personIndex < people.length) {
-                        job.addPerson(people[personIndex]);
-                        personIndex++;
+            // Save current state in case we need to revert
+            const originalState = this.schedule.getWeeks().map(week => 
+                week.jobs.map(job => [...job.people])
+            );
+
+            // Randomize all weeks
+            for (const week of this.schedule.getWeeks()) {
+                let people: Person[] = [];
+
+                for (const job of week.jobs) {
+                    if (!job.hall) {
+                        people.push(...job.people);
+                        job.people = [];
+                    }
+                }
+                
+                people.sort(() => Math.random() - 0.5);
+                let personIndex = 0;
+                
+                for (const job of week.jobs) {
+                    if (!job.hall) {
+                        for (let i = 0; i < job.numOfPeople; i++) {
+                            if (personIndex < people.length) {
+                                    job.addPerson(people[personIndex]);
+                                    personIndex++;
+                            }
+                        }
                     }
                 }
             }
-        }
 
-        if (this.arePeopleDoingKitchenTooMuch()) {
-            // Restore original state
-            this.schedule.getWeeks().forEach((week, weekIndex) => {
-                week.jobs.forEach((job, jobIndex) => {
-                    job.people = [...originalState[weekIndex][jobIndex]];
-                });
-            });
-            // Try again
-            return this.randomizeAssignments(count + 1);
-        }
+            const kitchenCount = this.maxTimesOnePersonIsDoingKitchen();
+            
+            if (kitchenCount.max < lowestKitchenCount) {
+                lowestKitchenCount = kitchenCount.max;
+                message = `New lowest kitchen count ${lowestKitchenCount} at loop index ${count}`;
+                bestConfig = this.deepCopySchedule(this.schedule); // Create deep copy when saving best config
+            }
 
-        console.log(`Randomized ${count} times, found a valid assignment`);
-        return true;
+            count++;
+        }
+        return bestConfig;
     }
 
     toJson() {
         const json = {
+            quarter: config.quarter,
+            year: config.year,
             weeks: this.schedule.getWeeks().map(week => ({
                 weekNumber: week.weekNumber,
                 jobs: week.jobs.map(job => ({
@@ -359,16 +378,56 @@ export class Scheduler {
 
     maxTimesOnePersonIsDoingKitchen() {
         let max = 0;
+        let maxPerson: Person | null = null;
         for (const person of this.people) {
             const times = this.howManyTimesIsPersonDoingKitchen(person);
             if (times > max) {
                 max = times;
+                maxPerson = person;
             }
         }
-        return max;
+        return {
+            max: max,
+            person: maxPerson,
+        };
     }
 
+    private deepCopySchedule(schedule: Schedule): Schedule {
+        const newSchedule = new Schedule(schedule.getWeeks().length);
+        
+        schedule.getWeeks().forEach((week) => {
+            const newWeek = new Week(week.weekNumber, []);
+            week.jobs.forEach((job) => {
+                const newJob = new Job(job.name, job.numOfPeople, job.hall);
+                newJob.people = [...job.people]; // Copy the people array
+                newWeek.jobs.push(newJob);
+            });
+            newSchedule.addWeek(newWeek);
+        });
+        
+        return newSchedule;
+    }
 
+    private createProgressBar(progress: number): string {
+        const barLength = 30;
+        const filledLength = Math.floor(barLength * progress);
+        const emptyLength = barLength - filledLength;
+        const progressBar = '█'.repeat(filledLength) + '░'.repeat(emptyLength);
+        return `[${progressBar}] ${Math.floor(progress * 100)}%`;
+    }
+    
+    private updateProgress(count: number, total: number, message: string) {
+        const progress = count / total;
+        // Move cursor up one line and to the beginning
+        process.stdout.moveCursor(0, -1);
+        // Clear both lines
+        process.stdout.clearLine(0);
+        process.stdout.cursorTo(0);
+        process.stdout.write(message + '\n');
+        process.stdout.clearLine(0);
+        process.stdout.cursorTo(0);
+        process.stdout.write(this.createProgressBar(progress));
+    }
 }
 
 
