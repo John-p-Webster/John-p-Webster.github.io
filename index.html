@@ -2,78 +2,120 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Schedule Viewer</title>
+  <title>ATO Gamma Gamma Duties</title>
   <style>
     /* Basic reset and font styling */
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f2f5;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #007FFF;
       margin: 0;
       padding: 20px;
+      min-height: 100vh;
     }
     
     /* Container styling */
     #container {
-      max-width: 800px;
+      max-width: 1000px;
       margin: 0 auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
     
     h1 {
       text-align: center;
-      color: #333;
+      color: #007FFF;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .subtitle {
+      text-align: center;
+      color: #cfb53b;
+      font-size: 1.2em;
+      margin-top: -25px;
+      margin-bottom: 30px;
     }
     
     /* Dropdown styling */
     #weekSelector {
       display: block;
       margin: 20px auto;
-      padding: 10px;
+      padding: 12px 20px;
       font-size: 16px;
-      border-radius: 4px;
-      border: 1px solid #ccc;
+      border-radius: 8px;
+      border: 2px solid #007FFF;
+      background-color: white;
+      color: #007FFF;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      width: 200px;
+    }
+    
+    #weekSelector:hover {
+      background-color: #007FFF;
+      color: white;
     }
     
     /* Wrapper for schedule cards */
     .schedule-wrapper {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 25px;
+      padding: 20px 0;
     }
     
     /* Card style for each job */
     .job-card {
-      background-color: #fff;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      width: 300px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border: 2px solid #cfb53b;
+      transition: transform 0.3s ease;
+    }
+    
+    .job-card:hover {
+      transform: translateY(-5px);
     }
     
     .job-card h3 {
       margin-top: 0;
-      color: #007bff;
+      color: #007FFF;
+      font-size: 1.3em;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #cfb53b;
     }
     
     .job-card ul {
       list-style: none;
       padding: 0;
-      margin: 0;
+      margin: 10px 0;
     }
     
     .job-card li {
-      padding: 4px 0;
+      padding: 8px 0;
       border-bottom: 1px solid #eee;
+      color: #444;
     }
     
     .job-card li:last-child {
       border-bottom: none;
     }
+    
+    .job-card p {
+      color: #666;
+      font-style: italic;
+    }
   </style>
 </head>
 <body>
   <div id="container">
-    <h1>Schedule Viewer</h1>
+    <h1>ATO &Gamma;&Gamma;</h1>
+    <div class="subtitle">House Duties Schedule</div>
     <select id="weekSelector"></select>
     <div class="schedule-wrapper" id="scheduleContent"></div>
   </div>
