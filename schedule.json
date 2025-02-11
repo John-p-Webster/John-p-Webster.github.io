@@ -1,0 +1,1335 @@
+{
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "jobs": [
+        {
+          "name": "Upper North",
+          "people": [
+            {
+              "name": "Zebert"
+            },
+            {
+              "name": "JT"
+            }
+          ]
+        },
+        {
+          "name": "Upper South",
+          "people": [
+            {
+              "name": "Austin"
+            },
+            {
+              "name": "Wyatt"
+            }
+          ]
+        },
+        {
+          "name": "Lower North",
+          "people": [
+            {
+              "name": "Tim"
+            },
+            {
+              "name": "Baba"
+            }
+          ]
+        },
+        {
+          "name": "Lower South",
+          "people": [
+            {
+              "name": "Gary Groudsky"
+            },
+            {
+              "name": "Dom Spiotta"
+            }
+          ]
+        },
+        {
+          "name": "Foyer",
+          "people": [
+            {
+              "name": "Matteo B"
+            },
+            {
+              "name": "Nathan"
+            }
+          ]
+        },
+        {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Logan P."
+            },
+            {
+              "name": "Josh Pearson"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "Kj"
+            },
+            {
+              "name": "Hrimann"
+            }
+          ]
+        },
+        {
+          "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Brandon"
+            },
+            {
+              "name": "Webster"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
+            {
+              "name": "Cutler"
+            },
+            {
+              "name": "Robbie"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen Crew",
+          "people": [
+            {
+              "name": "Tristan"
+            },
+            {
+              "name": "Antonio"
+            },
+            {
+              "name": "Joel"
+            },
+            {
+              "name": "Nate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "jobs": [
+        {
+          "name": "Upper North",
+          "people": [
+            {
+              "name": "Conner"
+            },
+            {
+              "name": "Jonny"
+            }
+          ]
+        },
+        {
+          "name": "Upper South",
+          "people": [
+            {
+              "name": "Brandon"
+            },
+            {
+              "name": "Webster"
+            }
+          ]
+        },
+        {
+          "name": "Lower North",
+          "people": [
+            {
+              "name": "Josh Pearson"
+            },
+            {
+              "name": "Tim"
+            }
+          ]
+        },
+        {
+          "name": "Lower South",
+          "people": [
+            {
+              "name": "Gary Groudsky"
+            },
+            {
+              "name": "Dom Spiotta"
+            }
+          ]
+        },
+        {
+          "name": "Foyer",
+          "people": [
+            {
+              "name": "Austin"
+            },
+            {
+              "name": "Wyatt"
+            }
+          ]
+        },
+        {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Matteo B"
+            },
+            {
+              "name": "Nathan"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "Zebert"
+            },
+            {
+              "name": "JT"
+            }
+          ]
+        },
+        {
+          "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Josh MC"
+            },
+            {
+              "name": "Grayson"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
+            {
+              "name": "Starit"
+            },
+            {
+              "name": "Baba"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen Crew",
+          "people": [
+            {
+              "name": "Kj"
+            },
+            {
+              "name": "Hrimann"
+            },
+            {
+              "name": "Cutler"
+            },
+            {
+              "name": "Robbie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "jobs": [
+        {
+          "name": "Upper North",
+          "people": [
+            {
+              "name": "Josh MC"
+            },
+            {
+              "name": "Grayson"
+            }
+          ]
+        },
+        {
+          "name": "Upper South",
+          "people": [
+            {
+              "name": "Cutler"
+            },
+            {
+              "name": "Robbie"
+            }
+          ]
+        },
+        {
+          "name": "Lower North",
+          "people": [
+            {
+              "name": "Baba"
+            },
+            {
+              "name": "Josh Pearson"
+            }
+          ]
+        },
+        {
+          "name": "Lower South",
+          "people": [
+            {
+              "name": "Gary Groudsky"
+            },
+            {
+              "name": "Dom Spiotta"
+            }
+          ]
+        },
+        {
+          "name": "Foyer",
+          "people": [
+            {
+              "name": "Conner"
+            },
+            {
+              "name": "Jonny"
+            }
+          ]
+        },
+        {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Austin"
+            },
+            {
+              "name": "Wyatt"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "Brandon"
+            },
+            {
+              "name": "Webster"
+            }
+          ]
+        },
+        {
+          "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Tristan"
+            },
+            {
+              "name": "Antonio"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
+            {
+              "name": "Joel"
+            },
+            {
+              "name": "Nate"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen Crew",
+          "people": [
+            {
+              "name": "Matteo B"
+            },
+            {
+              "name": "Nathan"
+            },
+            {
+              "name": "Zebert"
+            },
+            {
+              "name": "JT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "jobs": [
+        {
+          "name": "Upper North",
+          "people": [
+            {
+              "name": "Starit"
+            },
+            {
+              "name": "Logan P."
+            }
+          ]
+        },
+        {
+          "name": "Upper South",
+          "people": [
+            {
+              "name": "Tristan"
+            },
+            {
+              "name": "Antonio"
+            }
+          ]
+        },
+        {
+          "name": "Lower North",
+          "people": [
+            {
+              "name": "Tim"
+            },
+            {
+              "name": "Baba"
+            }
+          ]
+        },
+        {
+          "name": "Lower South",
+          "people": [
+            {
+              "name": "Gary Groudsky"
+            },
+            {
+              "name": "Dom Spiotta"
+            }
+          ]
+        },
+        {
+          "name": "Foyer",
+          "people": [
+            {
+              "name": "Conner"
+            },
+            {
+              "name": "Jonny"
+            }
+          ]
+        },
+        {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Josh MC"
+            },
+            {
+              "name": "Grayson"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "Kj"
+            },
+            {
+              "name": "Hrimann"
+            }
+          ]
+        },
+        {
+          "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Austin"
+            },
+            {
+              "name": "Wyatt"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
+            {
+              "name": "Brandon"
+            },
+            {
+              "name": "Webster"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen Crew",
+          "people": [
+            {
+              "name": "Cutler"
+            },
+            {
+              "name": "Robbie"
+            },
+            {
+              "name": "Joel"
+            },
+            {
+              "name": "Nate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "jobs": [
+        {
+          "name": "Upper North",
+          "people": [
+            {
+              "name": "Kj"
+            },
+            {
+              "name": "Hrimann"
+            }
+          ]
+        },
+        {
+          "name": "Upper South",
+          "people": [
+            {
+              "name": "Joel"
+            },
+            {
+              "name": "Nate"
+            }
+          ]
+        },
+        {
+          "name": "Lower North",
+          "people": [
+            {
+              "name": "Josh Pearson"
+            },
+            {
+              "name": "Tim"
+            }
+          ]
+        },
+        {
+          "name": "Lower South",
+          "people": [
+            {
+              "name": "Gary Groudsky"
+            },
+            {
+              "name": "Dom Spiotta"
+            }
+          ]
+        },
+        {
+          "name": "Foyer",
+          "people": [
+            {
+              "name": "Starit"
+            },
+            {
+              "name": "Logan P."
+            }
+          ]
+        },
+        {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Tristan"
+            },
+            {
+              "name": "Antonio"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "Matteo B"
+            },
+            {
+              "name": "Nathan"
+            }
+          ]
+        },
+        {
+          "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Zebert"
+            },
+            {
+              "name": "JT"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
+            {
+              "name": "Conner"
+            },
+            {
+              "name": "Jonny"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen Crew",
+          "people": [
+            {
+              "name": "Josh MC"
+            },
+            {
+              "name": "Grayson"
+            },
+            {
+              "name": "Austin"
+            },
+            {
+              "name": "Wyatt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "jobs": [
+        {
+          "name": "Upper North",
+          "people": [
+            {
+              "name": "Zebert"
+            },
+            {
+              "name": "JT"
+            }
+          ]
+        },
+        {
+          "name": "Upper South",
+          "people": [
+            {
+              "name": "Matteo B"
+            },
+            {
+              "name": "Nathan"
+            }
+          ]
+        },
+        {
+          "name": "Lower North",
+          "people": [
+            {
+              "name": "Baba"
+            },
+            {
+              "name": "Josh Pearson"
+            }
+          ]
+        },
+        {
+          "name": "Lower South",
+          "people": [
+            {
+              "name": "Gary Groudsky"
+            },
+            {
+              "name": "Dom Spiotta"
+            }
+          ]
+        },
+        {
+          "name": "Foyer",
+          "people": [
+            {
+              "name": "Starit"
+            },
+            {
+              "name": "Logan P."
+            }
+          ]
+        },
+        {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Kj"
+            },
+            {
+              "name": "Hrimann"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "Brandon"
+            },
+            {
+              "name": "Webster"
+            }
+          ]
+        },
+        {
+          "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Cutler"
+            },
+            {
+              "name": "Robbie"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
+            {
+              "name": "Tristan"
+            },
+            {
+              "name": "Antonio"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen Crew",
+          "people": [
+            {
+              "name": "Joel"
+            },
+            {
+              "name": "Nate"
+            },
+            {
+              "name": "Conner"
+            },
+            {
+              "name": "Jonny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "jobs": [
+        {
+          "name": "Upper North",
+          "people": [
+            {
+              "name": "Conner"
+            },
+            {
+              "name": "Jonny"
+            }
+          ]
+        },
+        {
+          "name": "Upper South",
+          "people": [
+            {
+              "name": "Austin"
+            },
+            {
+              "name": "Wyatt"
+            }
+          ]
+        },
+        {
+          "name": "Lower North",
+          "people": [
+            {
+              "name": "Tim"
+            },
+            {
+              "name": "Baba"
+            }
+          ]
+        },
+        {
+          "name": "Lower South",
+          "people": [
+            {
+              "name": "Gary Groudsky"
+            },
+            {
+              "name": "Dom Spiotta"
+            }
+          ]
+        },
+        {
+          "name": "Foyer",
+          "people": [
+            {
+              "name": "Matteo B"
+            },
+            {
+              "name": "Nathan"
+            }
+          ]
+        },
+        {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Zebert"
+            },
+            {
+              "name": "JT"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "Josh MC"
+            },
+            {
+              "name": "Grayson"
+            }
+          ]
+        },
+        {
+          "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Starit"
+            },
+            {
+              "name": "Logan P."
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
+            {
+              "name": "Kj"
+            },
+            {
+              "name": "Hrimann"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen Crew",
+          "people": [
+            {
+              "name": "Brandon"
+            },
+            {
+              "name": "Webster"
+            },
+            {
+              "name": "Cutler"
+            },
+            {
+              "name": "Robbie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 8,
+      "jobs": [
+        {
+          "name": "Upper North",
+          "people": [
+            {
+              "name": "Josh MC"
+            },
+            {
+              "name": "Grayson"
+            }
+          ]
+        },
+        {
+          "name": "Upper South",
+          "people": [
+            {
+              "name": "Brandon"
+            },
+            {
+              "name": "Webster"
+            }
+          ]
+        },
+        {
+          "name": "Lower North",
+          "people": [
+            {
+              "name": "Josh Pearson"
+            },
+            {
+              "name": "Tim"
+            }
+          ]
+        },
+        {
+          "name": "Lower South",
+          "people": [
+            {
+              "name": "Gary Groudsky"
+            },
+            {
+              "name": "Dom Spiotta"
+            }
+          ]
+        },
+        {
+          "name": "Foyer",
+          "people": [
+            {
+              "name": "Austin"
+            },
+            {
+              "name": "Wyatt"
+            }
+          ]
+        },
+        {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Tristan"
+            },
+            {
+              "name": "Antonio"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "Joel"
+            },
+            {
+              "name": "Nate"
+            }
+          ]
+        },
+        {
+          "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Matteo B"
+            },
+            {
+              "name": "Nathan"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
+            {
+              "name": "Zebert"
+            },
+            {
+              "name": "JT"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen Crew",
+          "people": [
+            {
+              "name": "Conner"
+            },
+            {
+              "name": "Jonny"
+            },
+            {
+              "name": "Starit"
+            },
+            {
+              "name": "Logan P."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 9,
+      "jobs": [
+        {
+          "name": "Upper North",
+          "people": [
+            {
+              "name": "Starit"
+            },
+            {
+              "name": "Logan P."
+            }
+          ]
+        },
+        {
+          "name": "Upper South",
+          "people": [
+            {
+              "name": "Cutler"
+            },
+            {
+              "name": "Robbie"
+            }
+          ]
+        },
+        {
+          "name": "Lower North",
+          "people": [
+            {
+              "name": "Baba"
+            },
+            {
+              "name": "Josh Pearson"
+            }
+          ]
+        },
+        {
+          "name": "Lower South",
+          "people": [
+            {
+              "name": "Gary Groudsky"
+            },
+            {
+              "name": "Dom Spiotta"
+            }
+          ]
+        },
+        {
+          "name": "Foyer",
+          "people": [
+            {
+              "name": "Josh MC"
+            },
+            {
+              "name": "Grayson"
+            }
+          ]
+        },
+        {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Kj"
+            },
+            {
+              "name": "Hrimann"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "Austin"
+            },
+            {
+              "name": "Wyatt"
+            }
+          ]
+        },
+        {
+          "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Brandon"
+            },
+            {
+              "name": "Webster"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
+            {
+              "name": "Tristan"
+            },
+            {
+              "name": "Antonio"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen Crew",
+          "people": [
+            {
+              "name": "Joel"
+            },
+            {
+              "name": "Nate"
+            },
+            {
+              "name": "Matteo B"
+            },
+            {
+              "name": "Nathan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 10,
+      "jobs": [
+        {
+          "name": "Upper North",
+          "people": [
+            {
+              "name": "Kj"
+            },
+            {
+              "name": "Hrimann"
+            }
+          ]
+        },
+        {
+          "name": "Upper South",
+          "people": [
+            {
+              "name": "Tristan"
+            },
+            {
+              "name": "Antonio"
+            }
+          ]
+        },
+        {
+          "name": "Lower North",
+          "people": [
+            {
+              "name": "Tim"
+            },
+            {
+              "name": "Baba"
+            }
+          ]
+        },
+        {
+          "name": "Lower South",
+          "people": [
+            {
+              "name": "Joel"
+            },
+            {
+              "name": "Nate"
+            }
+          ]
+        },
+        {
+          "name": "Foyer",
+          "people": [
+            {
+              "name": "Cutler"
+            },
+            {
+              "name": "Robbie"
+            }
+          ]
+        },
+        {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Josh Pearson"
+            },
+            {
+              "name": "Zebert"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "JT"
+            },
+            {
+              "name": "Conner"
+            }
+          ]
+        },
+        {
+          "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Jonny"
+            },
+            {
+              "name": "Josh MC"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
+            {
+              "name": "Grayson"
+            },
+            {
+              "name": "Starit"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen Crew",
+          "people": [
+            {
+              "name": "Logan P."
+            },
+            {
+              "name": "Austin"
+            },
+            {
+              "name": "Wyatt"
+            },
+            {
+              "name": "Brandon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 11,
+      "jobs": [
+        {
+          "name": "Upper North",
+          "people": [
+            {
+              "name": "Zebert"
+            },
+            {
+              "name": "JT"
+            }
+          ]
+        },
+        {
+          "name": "Upper South",
+          "people": [
+            {
+              "name": "Matteo B"
+            },
+            {
+              "name": "Nathan"
+            }
+          ]
+        },
+        {
+          "name": "Lower North",
+          "people": [
+            {
+              "name": "Josh Pearson"
+            },
+            {
+              "name": "Tim"
+            }
+          ]
+        },
+        {
+          "name": "Lower South",
+          "people": [
+            {
+              "name": "Conner"
+            },
+            {
+              "name": "Jonny"
+            }
+          ]
+        },
+        {
+          "name": "Foyer",
+          "people": [
+            {
+              "name": "Baba"
+            },
+            {
+              "name": "Kj"
+            }
+          ]
+        },
+        {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Hrimann"
+            },
+            {
+              "name": "Webster"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "Cutler"
+            },
+            {
+              "name": "Robbie"
+            }
+          ]
+        },
+        {
+          "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Tristan"
+            },
+            {
+              "name": "Antonio"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
+            {
+              "name": "Joel"
+            },
+            {
+              "name": "Nate"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen Crew",
+          "people": [
+            {
+              "name": "Josh MC"
+            },
+            {
+              "name": "Grayson"
+            },
+            {
+              "name": "Starit"
+            },
+            {
+              "name": "Logan P."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

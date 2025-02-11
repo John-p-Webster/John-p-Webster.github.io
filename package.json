@@ -1,0 +1,16 @@
+{
+  "name": "duties",
+  "version": "1.0.0",
+  "description": "Assigns duties for house",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc main.ts && node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}

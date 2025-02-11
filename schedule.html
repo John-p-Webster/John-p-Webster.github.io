@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Schedule Viewer</title>
+  <style>
+    /* Basic reset and font styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    /* Container styling */
+    #container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    
+    /* Dropdown styling */
+    #weekSelector {
+      display: block;
+      margin: 20px auto;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    
+    /* Wrapper for schedule cards */
+    .schedule-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    
+    /* Card style for each job */
+    .job-card {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+    
+    .job-card h3 {
+      margin-top: 0;
+      color: #007bff;
+    }
+    
+    .job-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .job-card li {
+      padding: 4px 0;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .job-card li:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>Schedule Viewer</h1>
+    <select id="weekSelector"></select>
+    <div class="schedule-wrapper" id="scheduleContent"></div>
+  </div>
+
+  <script type="module">
+    // Fetch the schedule data from schedule.json
+    fetch('schedule.json')
+      .then(response => response.json())
+      .then(scheduleData => {
+        const weekSelector = document.getElementById('weekSelector');
+
+        // Populate the dropdown with week options.
+        scheduleData.weeks.forEach(week => {
+          const option = document.createElement('option');
+          option.value = week.weekNumber;
+          option.textContent = 'Week ' + week.weekNumber;
+          weekSelector.appendChild(option);
+        });
+
+        // Function to render the schedule for a selected week
+        function renderWeek(weekNumber) {
+          const week = scheduleData.weeks.find(w => w.weekNumber == weekNumber);
+          const scheduleContent = document.getElementById('scheduleContent');
+          scheduleContent.innerHTML = ''; // Clear previous content
+
+          if (!week) {
+            scheduleContent.textContent = 'No schedule found for this week.';
+            return;
+          }
+
+          // Create a card for each job of the week
+          week.jobs.forEach(job => {
+            const jobCard = document.createElement('div');
+            jobCard.className = 'job-card';
+
+            const jobTitle = document.createElement('h3');
+            jobTitle.textContent = job.name;
+            jobCard.appendChild(jobTitle);
+
+            // Display assigned people for the job
+            if (job.people && job.people.length > 0) {
+              const ul = document.createElement('ul');
+              job.people.forEach(person => {
+                const li = document.createElement('li');
+                li.textContent = person.name;
+                ul.appendChild(li);
+              });
+              jobCard.appendChild(ul);
+            } else {
+              const noAssign = document.createElement('p');
+              noAssign.textContent = 'No assignment';
+              jobCard.appendChild(noAssign);
+            }
+
+            scheduleContent.appendChild(jobCard);
+          });
+        }
+
+        // Initially display the first week if available
+        if (scheduleData.weeks.length > 0) {
+          renderWeek(scheduleData.weeks[0].weekNumber);
+        }
+
+        // Update the schedule when the user changes the dropdown selection
+        weekSelector.addEventListener('change', (event) => {
+          renderWeek(event.target.value);
+        });
+      })
+      .catch(error => {
+        console.error('Error fetching schedule.json:', error);
+      });
+  </script>
+</body>
+</html>
