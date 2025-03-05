@@ -451,6 +451,21 @@ var Scheduler = /** @class */ (function () {
         process.stdout.cursorTo(0);
         process.stdout.write(this.createProgressBar(progress));
     };
+    Scheduler.prototype.assignKitchenDuty = function () {
+        for (var _i = 0, _a = this.schedule.getWeeks(); _i < _a.length; _i++) {
+            var week = _a[_i];
+            var kitchenJob = week.jobs.find(function (job) { return job.name === 'Kitchen Crew'; });
+            var people = this.people.filter(function (person) { return person.active; })
+                .sort(function (a, b) { return a.numAssignedKitchenDuty - b.numAssignedKitchenDuty; });
+            for (var i = 0; i < 4; i++) {
+                if (people[i].numAssignedJobs < this.maxAssignments) {
+                    kitchenJob.addPerson(people[i]);
+                    people[i].numAssignedKitchenDuty++;
+                    people[i].numAssignedJobs++;
+                }
+            }
+        }
+    };
     return Scheduler;
 }());
 exports.Scheduler = Scheduler;

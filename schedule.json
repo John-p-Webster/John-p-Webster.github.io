@@ -53,10 +53,10 @@
           "name": "Foyer",
           "people": [
             {
-              "name": "Jonny"
+              "name": "Conner"
             },
             {
-              "name": "Hrimann"
+              "name": "Matteo B"
             }
           ]
         },
@@ -64,10 +64,10 @@
           "name": "Judy and Judy Jr.",
           "people": [
             {
-              "name": "Cutler"
+              "name": "Webster"
             },
             {
-              "name": "Josh MC"
+              "name": "Nathan"
             }
           ]
         },
@@ -75,10 +75,10 @@
           "name": "Pool room and Handicap Restroom",
           "people": [
             {
-              "name": "Conner"
+              "name": "Brandon"
             },
             {
-              "name": "Kj"
+              "name": "Cutler"
             }
           ]
         },
@@ -89,7 +89,7 @@
               "name": "Grayson"
             },
             {
-              "name": "Brandon"
+              "name": "Logan P."
             }
           ]
         },
@@ -97,10 +97,10 @@
           "name": "Chapter Room",
           "people": [
             {
-              "name": "Robbie"
+              "name": "Strait"
             },
             {
-              "name": "Matteo B"
+              "name": "Robbie"
             }
           ]
         },
@@ -108,16 +108,16 @@
           "name": "Kitchen Crew",
           "people": [
             {
-              "name": "Logan P."
+              "name": "Hrimann"
             },
             {
-              "name": "Strait"
+              "name": "Josh MC"
             },
             {
-              "name": "Webster"
+              "name": "Kj"
             },
             {
-              "name": "Nathan"
+              "name": "Jonny"
             }
           ]
         }
@@ -174,10 +174,10 @@
           "name": "Foyer",
           "people": [
             {
-              "name": "Nathan"
+              "name": "Matteo B"
             },
             {
-              "name": "Strait"
+              "name": "Antonio"
             }
           ]
         },
@@ -185,10 +185,10 @@
           "name": "Judy and Judy Jr.",
           "people": [
             {
-              "name": "Zebert"
+              "name": "Nathan"
             },
             {
-              "name": "Nate"
+              "name": "Zebert"
             }
           ]
         },
@@ -196,10 +196,10 @@
           "name": "Pool room and Handicap Restroom",
           "people": [
             {
-              "name": "Tristan"
+              "name": "Wyatt"
             },
             {
-              "name": "Grayson"
+              "name": "Austin"
             }
           ]
         },
@@ -207,10 +207,10 @@
           "name": "Library and Dungeoun",
           "people": [
             {
-              "name": "Antonio"
+              "name": "JT"
             },
             {
-              "name": "Josh MC"
+              "name": "Logan P."
             }
           ]
         },
@@ -218,10 +218,10 @@
           "name": "Chapter Room",
           "people": [
             {
-              "name": "Logan P."
+              "name": "Josh MC"
             },
             {
-              "name": "JT"
+              "name": "Grayson"
             }
           ]
         },
@@ -229,16 +229,16 @@
           "name": "Kitchen Crew",
           "people": [
             {
-              "name": "Austin"
+              "name": "Nate"
             },
             {
               "name": "Joel"
             },
             {
-              "name": "Wyatt"
+              "name": "Strait"
             },
             {
-              "name": "Matteo B"
+              "name": "Tristan"
             }
           ]
         }
@@ -295,40 +295,7 @@
           "name": "Foyer",
           "people": [
             {
-              "name": "Antonio"
-            },
-            {
-              "name": "Joel"
-            }
-          ]
-        },
-        {
-          "name": "Judy and Judy Jr.",
-          "people": [
-            {
-              "name": "Nate"
-            },
-            {
-              "name": "Wyatt"
-            }
-          ]
-        },
-        {
-          "name": "Pool room and Handicap Restroom",
-          "people": [
-            {
-              "name": "Webster"
-            },
-            {
-              "name": "Hrimann"
-            }
-          ]
-        },
-        {
-          "name": "Library and Dungeoun",
-          "people": [
-            {
-              "name": "Austin"
+              "name": "Brandon"
             },
             {
               "name": "Kj"
@@ -336,13 +303,46 @@
           ]
         },
         {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Matteo B"
+            },
+            {
+              "name": "Nate"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "Tristan"
+            },
+            {
+              "name": "Nathan"
+            }
+          ]
+        },
+        {
+          "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Wyatt"
+            },
+            {
+              "name": "Conner"
+            }
+          ]
+        },
+        {
           "name": "Chapter Room",
           "people": [
             {
-              "name": "Nathan"
+              "name": "Joel"
             },
             {
-              "name": "Tristan"
+              "name": "Jonny"
             }
           ]
         },
@@ -350,16 +350,16 @@
           "name": "Kitchen Crew",
           "people": [
             {
-              "name": "Conner"
+              "name": "Austin"
             },
             {
-              "name": "Matteo B"
+              "name": "Antonio"
             },
             {
-              "name": "Brandon"
+              "name": "Hrimann"
             },
             {
-              "name": "Jonny"
+              "name": "Webster"
             }
           ]
         }
@@ -416,7 +416,7 @@
           "name": "Foyer",
           "people": [
             {
-              "name": "Conner"
+              "name": "Hrimann"
             },
             {
               "name": "Jonny"
@@ -427,29 +427,7 @@
           "name": "Judy and Judy Jr.",
           "people": [
             {
-              "name": "Robbie"
-            },
-            {
               "name": "Austin"
-            }
-          ]
-        },
-        {
-          "name": "Pool room and Handicap Restroom",
-          "people": [
-            {
-              "name": "Wyatt"
-            },
-            {
-              "name": "Brandon"
-            }
-          ]
-        },
-        {
-          "name": "Library and Dungeoun",
-          "people": [
-            {
-              "name": "Webster"
             },
             {
               "name": "JT"
@@ -457,10 +435,10 @@
           ]
         },
         {
-          "name": "Chapter Room",
+          "name": "Pool room and Handicap Restroom",
           "people": [
             {
-              "name": "Josh MC"
+              "name": "Kj"
             },
             {
               "name": "Grayson"
@@ -468,19 +446,41 @@
           ]
         },
         {
-          "name": "Kitchen Crew",
+          "name": "Library and Dungeoun",
           "people": [
             {
-              "name": "Kj"
+              "name": "Zebert"
             },
             {
-              "name": "Hrimann"
-            },
+              "name": "Brandon"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
             {
               "name": "Cutler"
             },
             {
-              "name": "Zebert"
+              "name": "Webster"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen Crew",
+          "people": [
+            {
+              "name": "Josh MC"
+            },
+            {
+              "name": "Conner"
+            },
+            {
+              "name": "Wyatt"
+            },
+            {
+              "name": "Robbie"
             }
           ]
         }
@@ -537,51 +537,7 @@
           "name": "Foyer",
           "people": [
             {
-              "name": "Nathan"
-            },
-            {
-              "name": "Cutler"
-            }
-          ]
-        },
-        {
-          "name": "Judy and Judy Jr.",
-          "people": [
-            {
               "name": "Strait"
-            },
-            {
-              "name": "Jonny"
-            }
-          ]
-        },
-        {
-          "name": "Pool room and Handicap Restroom",
-          "people": [
-            {
-              "name": "Conner"
-            },
-            {
-              "name": "Josh MC"
-            }
-          ]
-        },
-        {
-          "name": "Library and Dungeoun",
-          "people": [
-            {
-              "name": "Logan P."
-            },
-            {
-              "name": "Tristan"
-            }
-          ]
-        },
-        {
-          "name": "Chapter Room",
-          "people": [
-            {
-              "name": "Antonio"
             },
             {
               "name": "Matteo B"
@@ -589,19 +545,63 @@
           ]
         },
         {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Tristan"
+            },
+            {
+              "name": "Josh MC"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "Cutler"
+            },
+            {
+              "name": "Logan P."
+            }
+          ]
+        },
+        {
+          "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Robbie"
+            },
+            {
+              "name": "Antonio"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
+            {
+              "name": "Conner"
+            },
+            {
+              "name": "Jonny"
+            }
+          ]
+        },
+        {
           "name": "Kitchen Crew",
           "people": [
             {
-              "name": "Zebert"
+              "name": "Grayson"
             },
             {
-              "name": "Robbie"
+              "name": "Nathan"
             },
             {
               "name": "JT"
             },
             {
-              "name": "Grayson"
+              "name": "Zebert"
             }
           ]
         }
@@ -658,10 +658,10 @@
           "name": "Foyer",
           "people": [
             {
-              "name": "Robbie"
+              "name": "Hrimann"
             },
             {
-              "name": "Webster"
+              "name": "Austin"
             }
           ]
         },
@@ -669,10 +669,10 @@
           "name": "Judy and Judy Jr.",
           "people": [
             {
-              "name": "Brandon"
+              "name": "Cutler"
             },
             {
-              "name": "Austin"
+              "name": "Tristan"
             }
           ]
         },
@@ -683,7 +683,7 @@
               "name": "Logan P."
             },
             {
-              "name": "Joel"
+              "name": "Kj"
             }
           ]
         },
@@ -691,10 +691,10 @@
           "name": "Library and Dungeoun",
           "people": [
             {
-              "name": "Hrimann"
+              "name": "Brandon"
             },
             {
-              "name": "Nate"
+              "name": "Strait"
             }
           ]
         },
@@ -702,10 +702,10 @@
           "name": "Chapter Room",
           "people": [
             {
-              "name": "Strait"
+              "name": "Nate"
             },
             {
-              "name": "Kj"
+              "name": "Webster"
             }
           ]
         },
@@ -713,16 +713,16 @@
           "name": "Kitchen Crew",
           "people": [
             {
-              "name": "Cutler"
+              "name": "Wyatt"
             },
             {
-              "name": "Wyatt"
+              "name": "Robbie"
             },
             {
               "name": "Antonio"
             },
             {
-              "name": "Tristan"
+              "name": "Joel"
             }
           ]
         }
@@ -790,10 +790,10 @@
           "name": "Judy and Judy Jr.",
           "people": [
             {
-              "name": "Zebert"
+              "name": "Tomaso Calviello"
             },
             {
-              "name": "Matteo Calviello"
+              "name": "Nathan"
             }
           ]
         },
@@ -801,7 +801,7 @@
           "name": "Pool room and Handicap Restroom",
           "people": [
             {
-              "name": "Nathan"
+              "name": "Joel"
             },
             {
               "name": "JT"
@@ -812,7 +812,7 @@
           "name": "Library and Dungeoun",
           "people": [
             {
-              "name": "Nate"
+              "name": "Hrimann"
             },
             {
               "name": "Strait"
@@ -823,10 +823,10 @@
           "name": "Chapter Room",
           "people": [
             {
-              "name": "Matteo B"
+              "name": "Matteo Calviello"
             },
             {
-              "name": "Hrimann"
+              "name": "Zebert"
             }
           ]
         },
@@ -834,13 +834,13 @@
           "name": "Kitchen Crew",
           "people": [
             {
-              "name": "Joel"
+              "name": "Matteo B"
+            },
+            {
+              "name": "Nate"
             },
             {
               "name": "Logan P."
-            },
-            {
-              "name": "Tomaso Calviello"
             },
             {
               "name": "Kj"
@@ -900,18 +900,7 @@
           "name": "Foyer",
           "people": [
             {
-              "name": "Tristan"
-            },
-            {
-              "name": "Jonny"
-            }
-          ]
-        },
-        {
-          "name": "Judy and Judy Jr.",
-          "people": [
-            {
-              "name": "Antonio"
+              "name": "Nathan"
             },
             {
               "name": "Conner"
@@ -919,13 +908,24 @@
           ]
         },
         {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Joel"
+            },
+            {
+              "name": "Dom Spiotta"
+            }
+          ]
+        },
+        {
           "name": "Pool room and Handicap Restroom",
           "people": [
             {
-              "name": "Wyatt"
+              "name": "Antonio"
             },
             {
-              "name": "Cutler"
+              "name": "Tristan"
             }
           ]
         },
@@ -933,10 +933,10 @@
           "name": "Library and Dungeoun",
           "people": [
             {
-              "name": "Joel"
+              "name": "Robbie"
             },
             {
-              "name": "Austin"
+              "name": "Nate"
             }
           ]
         },
@@ -944,10 +944,10 @@
           "name": "Chapter Room",
           "people": [
             {
-              "name": "Matteo B"
+              "name": "Jonny"
             },
             {
-              "name": "Robbie"
+              "name": "Wyatt"
             }
           ]
         },
@@ -955,16 +955,16 @@
           "name": "Kitchen Crew",
           "people": [
             {
-              "name": "Nathan"
-            },
-            {
-              "name": "Dom Spiotta"
+              "name": "Austin"
             },
             {
               "name": "Gary Groudsky"
             },
             {
-              "name": "Nate"
+              "name": "Matteo B"
+            },
+            {
+              "name": "Cutler"
             }
           ]
         }
@@ -1021,29 +1021,7 @@
           "name": "Foyer",
           "people": [
             {
-              "name": "Josh MC"
-            },
-            {
-              "name": "Zebert"
-            }
-          ]
-        },
-        {
-          "name": "Judy and Judy Jr.",
-          "people": [
-            {
-              "name": "Conner"
-            },
-            {
-              "name": "Austin"
-            }
-          ]
-        },
-        {
-          "name": "Pool room and Handicap Restroom",
-          "people": [
-            {
-              "name": "JT"
+              "name": "Kj"
             },
             {
               "name": "Matteo Calviello"
@@ -1051,7 +1029,40 @@
           ]
         },
         {
+          "name": "Judy and Judy Jr.",
+          "people": [
+            {
+              "name": "Hrimann"
+            },
+            {
+              "name": "Josh MC"
+            }
+          ]
+        },
+        {
+          "name": "Pool room and Handicap Restroom",
+          "people": [
+            {
+              "name": "Austin"
+            },
+            {
+              "name": "JT"
+            }
+          ]
+        },
+        {
           "name": "Library and Dungeoun",
+          "people": [
+            {
+              "name": "Conner"
+            },
+            {
+              "name": "Webster"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
           "people": [
             {
               "name": "Wyatt"
@@ -1062,30 +1073,19 @@
           ]
         },
         {
-          "name": "Chapter Room",
-          "people": [
-            {
-              "name": "Kj"
-            },
-            {
-              "name": "Webster"
-            }
-          ]
-        },
-        {
           "name": "Kitchen Crew",
           "people": [
             {
               "name": "Grayson"
             },
             {
-              "name": "Hrimann"
-            },
-            {
               "name": "Tomaso Calviello"
             },
             {
               "name": "Jonny"
+            },
+            {
+              "name": "Zebert"
             }
           ]
         }
@@ -1142,10 +1142,10 @@
           "name": "Foyer",
           "people": [
             {
-              "name": "Logan P."
+              "name": "Zebert"
             },
             {
-              "name": "Josh Pearson"
+              "name": "Brandon"
             }
           ]
         },
@@ -1153,10 +1153,10 @@
           "name": "Judy and Judy Jr.",
           "people": [
             {
-              "name": "Nathan"
+              "name": "Gary Groudsky"
             },
             {
-              "name": "Zebert"
+              "name": "Robbie"
             }
           ]
         },
@@ -1167,7 +1167,7 @@
               "name": "Matteo B"
             },
             {
-              "name": "Dom Spiotta"
+              "name": "Joel"
             }
           ]
         },
@@ -1175,10 +1175,10 @@
           "name": "Library and Dungeoun",
           "people": [
             {
-              "name": "Cutler"
+              "name": "Nathan"
             },
             {
-              "name": "Strait"
+              "name": "Cutler"
             }
           ]
         },
@@ -1186,10 +1186,10 @@
           "name": "Chapter Room",
           "people": [
             {
-              "name": "Brandon"
+              "name": "Nate"
             },
             {
-              "name": "Joel"
+              "name": "Logan P."
             }
           ]
         },
@@ -1197,16 +1197,16 @@
           "name": "Kitchen Crew",
           "people": [
             {
+              "name": "Dom Spiotta"
+            },
+            {
+              "name": "Strait"
+            },
+            {
+              "name": "Josh Pearson"
+            },
+            {
               "name": "Webster"
-            },
-            {
-              "name": "Nate"
-            },
-            {
-              "name": "Gary Groudsky"
-            },
-            {
-              "name": "Robbie"
             }
           ]
         }
@@ -1263,7 +1263,7 @@
           "name": "Foyer",
           "people": [
             {
-              "name": "Conner"
+              "name": "Baba"
             },
             {
               "name": "Austin"
@@ -1274,10 +1274,10 @@
           "name": "Judy and Judy Jr.",
           "people": [
             {
-              "name": "Jonny"
+              "name": "Grayson"
             },
             {
-              "name": "Kj"
+              "name": "Antonio"
             }
           ]
         },
@@ -1285,29 +1285,7 @@
           "name": "Pool room and Handicap Restroom",
           "people": [
             {
-              "name": "Logan P."
-            },
-            {
               "name": "Hrimann"
-            }
-          ]
-        },
-        {
-          "name": "Library and Dungeoun",
-          "people": [
-            {
-              "name": "Tomaso Calviello"
-            },
-            {
-              "name": "Grayson"
-            }
-          ]
-        },
-        {
-          "name": "Chapter Room",
-          "people": [
-            {
-              "name": "Antonio"
             },
             {
               "name": "Josh MC"
@@ -1315,16 +1293,38 @@
           ]
         },
         {
-          "name": "Kitchen Crew",
+          "name": "Library and Dungeoun",
           "people": [
             {
-              "name": "Strait"
+              "name": "Kj"
             },
             {
-              "name": "Baba"
+              "name": "Strait"
+            }
+          ]
+        },
+        {
+          "name": "Chapter Room",
+          "people": [
+            {
+              "name": "Jonny"
             },
             {
               "name": "Matteo Calviello"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen Crew",
+          "people": [
+            {
+              "name": "Tomaso Calviello"
+            },
+            {
+              "name": "Conner"
+            },
+            {
+              "name": "Logan P."
             },
             {
               "name": "Tristan"

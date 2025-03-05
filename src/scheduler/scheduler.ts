@@ -428,6 +428,23 @@ export class Scheduler {
         process.stdout.cursorTo(0);
         process.stdout.write(this.createProgressBar(progress));
     }
+
+    assignKitchenDuty() {
+        for (const week of this.schedule.getWeeks()) {
+            const kitchenJob = week.jobs.find(job => job.name === 'Kitchen Crew');
+
+            const people = this.people.filter(person => person.active)
+            .sort((a, b) => a.numAssignedKitchenDuty - b.numAssignedKitchenDuty);
+
+            for (let i = 0; i < 4; i++) {
+                if (people[i].numAssignedJobs < this.maxAssignments) {
+                    kitchenJob.addPerson(people[i]);
+                    people[i].numAssignedKitchenDuty++;
+                    people[i].numAssignedJobs++;
+                }
+            }
+        }
+    }
 }
 
 

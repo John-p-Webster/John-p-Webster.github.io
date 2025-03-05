@@ -5,6 +5,7 @@ export class Person {
     hall: Hall;
     active: boolean; // People on their last quarter are not active
     numAssignedJobs: number;
+    numAssignedKitchenDuty: number;
 
     constructor(name: string, hall: Hall, active: boolean) {
         this.name = name;
